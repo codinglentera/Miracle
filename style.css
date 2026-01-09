@@ -1,1 +1,24 @@
-/tempat stylis/
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+#game-container {
+    width: 80%;
+    height: 400px;
+    background-color: #000;
+    border: 2px solid #FF4500;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

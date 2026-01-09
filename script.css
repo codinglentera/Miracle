@@ -1,0 +1,14 @@
+// roblox-app.js (Sangat Disederhanakan)
+
+// Inisialisasi aplikasi web Roblox di dalam elemen #app
+const app = new RobloxApp('#app');
+
+// Memuat data pengguna, game, dll.
+app.loadUserData().then(() => {
+    app.renderHomepage();
+});
+
+// Menangani interaksi pengguna
+document.getElementById('play-button').addEventListener('click', () => {
+    window.location.href = 'roblox.com'; // Arahkan ke game
+});
